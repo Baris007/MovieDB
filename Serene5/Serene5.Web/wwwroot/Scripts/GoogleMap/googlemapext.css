@@ -1,0 +1,33 @@
+#map {
+  height: 750px; /* Define a specific height for the map */
+  width: 100%; /* Make sure it takes full width */
+}
+
+.map-container {
+  display: flex;
+  justify-content: center; /* Center the map horizontally */
+  align-items: center; /* Center the map vertically */
+}
+
+#place-autocomplete-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 10px;
+  padding: 5px;
+  font-family: Roboto, sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+gmp-place-autocomplete {
+  width: 300px;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#map #infowindow-content {
+  display: inline;
+}

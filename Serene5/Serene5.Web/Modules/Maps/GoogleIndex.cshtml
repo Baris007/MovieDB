@@ -1,0 +1,35 @@
+@section Head {
+    @Html.StyleBundle("Pages/Dashboard")
+    @Html.ScriptBundle("Pages/Dashboard")
+	<script src="~/Scripts/GoogleMap/googlemapext.js"></script>
+	<link href="~/Scripts/GoogleMap/googlemapext.css" rel="stylesheet"></link>
+}
+
+@section ContentHeader {
+    <h1>Place Autocomplete map</h1>
+}
+
+<div class="row">
+    <div class="col-lg-12 col-sm-12">
+        <div class="place-autocomplete-card" id="place-autocomplete-card">
+            <p>Search for a place here:</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-sm-12">
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12 col-sm-12">
+		<div class="Coordinates" id="coord">
+			<p id="p-lat"></p>
+			<p id="p-lng"></p>
+		</div>
+	</div>
+</div>
+
